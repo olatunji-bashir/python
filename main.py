@@ -13,7 +13,7 @@ def play():
     computer = random.choice(['r', 'p', 's'])
 
     if user == computer:
-        return 'tie'
+        return 'ties'
 
     if is_win(user, computer):
         return 'you won'
