@@ -33,7 +33,8 @@ new_list2 = [1, 2, 3, 4, 5]
 join_list = new_list + new_list2
 print(join_list)
 
-
+a = new_list2[::-1]
+print(a)
 
 """
 if "lemon" in my_list:
@@ -41,4 +42,20 @@ if "lemon" in my_list:
 else:
     print("no")
 """
+
+mylist = [1, 2, 3, 4, 5, 6, 7]
+b = [i*i for i in mylist]
+
+print(mylist)
+print(b)
+
+
+
+
+
+
+
+
+
+
 
